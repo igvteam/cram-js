@@ -4,10 +4,10 @@ const CramFile = gmodCRAM.CramFile;
 
 const indexedFile2 = new IndexedCramFile({
 
-  cramUrl: '../data/ce_5.tmp.cram',
+  cramUrl: '../data/ce%235.tmp.cram',
 
   index: new CraiIndex({
-    url: '../data/ce_5.tmp.cram.crai',
+    url: '../data/ce%235.tmp.cram.crai',
   }),
 
   seqFetch: (seqId, start, end) => {
@@ -31,12 +31,11 @@ indexedFile2.getRecordsForRange(0, 10000, 20000)
 
     records.forEach(record => {
 
-      output += 'got a record named ' + record.readName + '<p/>'
-
+      output += '<p/><b>got a record named: ' + record.readName + '</b><br/>';
+      output += 'alignment start: ' + record.alignmentStart + '<br/>';
+      output += 'length on ref: ' + record.lengthOnRef + '<br/>';
       output += 'read bases: ' + record.getReadBases() + '<br/>';
-
       output += 'quality scores: ' + (record.isPreservingQualityScores() ? record.qualityScores.join(',') : 'none') + '<br/>';
-
       output += 'read features:' + '<br/>';
 
       record.readFeatures.forEach(({code, data, pos, refPos, ref, sub}) => {
@@ -60,7 +59,7 @@ indexedFile2.getRecordsForRange(0, 10000, 20000)
   })
 
 
-const cramFile = new CramFile({url: '../data/ce_5.tmp.cram'});
+const cramFile = new CramFile({url: '../data/ce%235.tmp.cram'});
 
 cramFile.getSamHeader()
   .then(function (header) {
