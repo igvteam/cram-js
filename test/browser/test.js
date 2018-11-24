@@ -2,12 +2,17 @@ const IndexedCramFile = gmodCRAM.IndexedCramFile;
 const CraiIndex = gmodCRAM.CraiIndex;
 const CramFile = gmodCRAM.CramFile;
 
-const indexedFile2 = new IndexedCramFile({
+const cramUrl = '../data/grc37-1%23HG03297.mapped.ILLUMINA.bwa.ESN.low_coverage.20130415.bam.cram';
+const indexUrl = '../data/grc37-1%23HG03297.mapped.ILLUMINA.bwa.ESN.low_coverage.20130415.bam.cram.crai';
+//const cramUrl = '../data/ce%235.tmp.cram';
+//cons indexUrl = '../data/ce%235.tmp.cram.crai';
 
-  cramUrl: '../data/ce%235.tmp.cram',
+const indexedFile = new IndexedCramFile({
+
+  cramUrl: cramUrl,
 
   index: new CraiIndex({
-    url: '../data/ce%235.tmp.cram.crai',
+    url: indexUrl
   }),
 
   seqFetch: (seqId, start, end) => {
@@ -23,7 +28,7 @@ const indexedFile2 = new IndexedCramFile({
 
 // example of fetching records from an indexed CRAM file.
 // NOTE: only numeric IDs for the reference sequence are accepted
-indexedFile2.getRecordsForRange(0, 10000, 20000)
+indexedFile.getRecordsForRange(0, 1, 20000)
 
   .then(function (records) {
 
@@ -38,20 +43,24 @@ indexedFile2.getRecordsForRange(0, 10000, 20000)
       output += 'quality scores: ' + (record.isPreservingQualityScores() ? record.qualityScores.join(',') : 'none') + '<br/>';
       output += 'read features:' + '<br/>';
 
-      record.readFeatures.forEach(({code, data, pos, refPos, ref, sub}) => {
+      if(record.readFeatures) {
+        record.readFeatures.forEach(({code, data, pos, refPos, ref, sub}) => {
 
-        output += 'code: ' + code + ' ';
+          output += 'code: ' + code + ' ';
 
-        switch(code) {
-          case 'X':
-            output += 'base substitution of ' + ref + '->' + sub + ' at ' + refPos + '<br/>';
-            break;
-          case 'D':
-            output += 'deletion of ' + data + ' bases at '+ refPos + '<br/>';
-            break;
-        }
-
-      })
+          switch (code) {
+            case 'X':
+              output += 'base substitution of ' + ref + '->' + sub + ' at ' + refPos + '<br/>';
+              break;
+            case 'D':
+              output += 'deletion of ' + data + ' bases at ' + refPos + '<br/>';
+              break;
+          }
+        })
+      }
+      else {
+        output += 'no read features <br/>';
+      }
     })
 
     document.getElementById('output').innerHTML = output;
@@ -59,7 +68,8 @@ indexedFile2.getRecordsForRange(0, 10000, 20000)
   })
 
 
-const cramFile = new CramFile({url: '../data/ce%235.tmp.cram'});
+const cramFile = new CramFile({url: cramUrl});
+//const cramFile = new CramFile({url: '../data/ce%235.tmp.cram'});
 
 cramFile.getSamHeader()
   .then(function (header) {
@@ -70,7 +80,7 @@ cramFile.getSamHeader()
 
       if('SQ' === line.tag) {
         sqtext += line.data[0].value;
-        sqtext += "<br/>"
+        sqtext += ", "
       }
     }
 
