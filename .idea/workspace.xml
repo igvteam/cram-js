@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb78fedf-1c2a-4197-8725-30962dc662df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cramFile/slice/decodeRecord.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cramFile/slice/decodeRecord.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cramFile/slice/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cramFile/slice/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/1kg-mate.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/1kg-mate.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/hg19mini#cramQueryTest.cram.dump.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/hg19mini#cramQueryTest.cram.dump.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/hg19mini#cram_with_bai_index.cram.dump.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/hg19mini#cram_with_bai_index.cram.dump.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/hg19mini#cram_with_crai_index.cram.dump.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/hg19mini#cram_with_crai_index.cram.dump.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/human_g1k_v37.20.21.10M-10M200k#cramQueryWithBAI.cram.dump.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/human_g1k_v37.20.21.10M-10M200k#cramQueryWithBAI.cram.dump.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="487475780">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="babelrc" value="5" />
+          <entry key="editorconfig" value="1" />
+          <entry key="eslintignore" value="1" />
+          <entry key="eslintrc" value="1" />
+          <entry key="fa" value="2" />
+          <entry key="htaccess" value="1" />
+          <entry key="html" value="5" />
+          <entry key="js" value="149" />
+          <entry key="json" value="19" />
+          <entry key="lock" value="2" />
+          <entry key="md" value="5" />
+          <entry key="nycrc" value="1" />
+          <entry key="sam" value="3" />
+          <entry key="sam_" value="5" />
+          <entry key="yml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="5" />
+          <entry key="JSON" value="25" />
+          <entry key="JavaScript" value="149" />
+          <entry key="Markdown" value="5" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="YAML" value="2" />
+          <entry key="yarn.lock" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="htaccess" value="1" />
+          <entry key="html" value="175" />
+          <entry key="js" value="4034" />
+          <entry key="json" value="43" />
+          <entry key="sam" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="175" />
+          <entry key="JSON" value="43" />
+          <entry key="JavaScript" value="4034" />
+          <entry key="PLAIN_TEXT" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.composer.actions" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/binary-parser.test.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cramFile/slice/decodeRecord.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="225" column="22" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cramFile/constants.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/data/hg19mini#cram_with_bai_index.cram.dump.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="9717" column="16" selection-start-line="9717" selection-start-column="16" selection-end-line="9717" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/data/hg19mini#cramQueryTest.cram.dump.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="8155" column="25" selection-start-line="8155" selection-start-column="25" selection-end-line="8155" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cramFile/slice/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="123" column="3" selection-start-line="123" selection-start-column="3" selection-end-line="123" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/data/human_g1k_v37.20.21.10M-10M200k#cramQueryWithBAI.cram.dump.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="5010" column="26" selection-start-line="5010" selection-start-column="26" selection-end-line="5010" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/data/hg19mini#cram_with_crai_index.cram.dump.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="9721" column="25" selection-start-line="9721" selection-start-column="25" selection-end-line="9721" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gmodCRAM</find>
+      <find>gmodCram</find>
+      <find>getSamHeader</find>
+      <find>CramFile</find>
+      <find>readFeatures</find>
+      <find>qualityScores</find>
+      <find>qualityScore</find>
+      <find>decodeDataSeries</find>
+      <find>'QS'</find>
+      <find>decodeRecord</find>
+      <find>&quot;I&quot;</find>
+      <find>cram</find>
+      <find>getPairOrientation</find>
+      <find>fetchReferenceSequenceCallback</find>
+      <find>getReadBases</find>
+      <find>readGroup</find>
+      <find>RG</find>
+      <find>uniqueId</find>
+      <find>MF</find>
+      <find>pairAcrossChr</find>
+      <find>cacheSize</find>
+      <find>pair orientation</find>
+      <find>mateRe</find>
+      <find>templateLength</find>
+      <find>mateRecordNumber</find>
+      <find>131</find>
+      <find>100009</find>
+      <find>100257</find>
+      <find>readName</find>
+      <find>67</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>99</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Dropbox/projects/htsjdk" value="3065175163000" />
+        <entry key="$USER_HOME$/Dropbox/projects/igv" value="3045614268000" />
+        <entry key="$USER_HOME$/Dropbox/projects/javafx" value="3032950900000" />
+        <entry key="$USER_HOME$/Dropbox/projects/picard" value="3065176837000" />
+        <entry key="$USER_HOME$/Google Drive/projects/htsjdk" value="3020075972000" />
+        <entry key="$USER_HOME$/projects/htsjdk_current" value="1466387291000" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tmp/main.js" />
+        <option value="$PROJECT_DIR$/test/test.html" />
+        <option value="$PROJECT_DIR$/test/example-code.test.js" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/indexGlobal.js" />
+        <option value="$PROJECT_DIR$/src/craiIndex.js" />
+        <option value="$PROJECT_DIR$/browser/test.js" />
+        <option value="$PROJECT_DIR$/browser/test.html" />
+        <option value="$PROJECT_DIR$/test/browser/test.html" />
+        <option value="$PROJECT_DIR$/test/.htaccess" />
+        <option value="$PROJECT_DIR$/test/interChrMate.test.js" />
+        <option value="$PROJECT_DIR$/test/data/na12889.sam" />
+        <option value="$PROJECT_DIR$/test/data/interchr.hg19.sam" />
+        <option value="$PROJECT_DIR$/test/browser/test.js" />
+        <option value="$PROJECT_DIR$/src/io/remoteFile.js" />
+        <option value="$PROJECT_DIR$/test/indexedfile.test.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/cramFile/slice/decodeRecord.js" />
+        <option value="$PROJECT_DIR$/src/cramFile/record.js" />
+        <option value="$PROJECT_DIR$/test/1kg-mate.test.js" />
+        <option value="$PROJECT_DIR$/src/cramFile/constants.js" />
+        <option value="$PROJECT_DIR$/test/data/hg19mini#cram_with_bai_index.cram.dump.json" />
+        <option value="$PROJECT_DIR$/test/data/hg19mini#cramQueryTest.cram.dump.json" />
+        <option value="$PROJECT_DIR$/test/data/hg19mini#cram_with_crai_index.cram.dump.json" />
+        <option value="$PROJECT_DIR$/test/data/human_g1k_v37.20.21.10M-10M200k#cramQueryWithBAI.cram.dump.json" />
+        <option value="$PROJECT_DIR$/src/cramFile/slice/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="66" />
+    <option name="y" value="23" />
+    <option name="width" value="2492" />
+    <option name="height" value="1308" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cram-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cram-js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544030070103" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/browser" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Mocha.test/dump.test.js">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/cram-js/test/browser/test.html">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test/1kg-mate.test.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/1kg-mate.test.js</test-file>
+      <method v="2" />
+    </configuration>
+    <configuration name="test/binary-parser.test.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/binary-parser.test.js</test-file>
+      <method v="2" />
+    </configuration>
+    <configuration name="test/crai.test.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/crai.test.js</test-file>
+      <method v="2" />
+    </configuration>
+    <configuration name="test/dump.test.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/dump.test.js</test-file>
+      <method v="2" />
+    </configuration>
+    <configuration name="test/indexedfile.test.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/indexedfile.test.js</test-file>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Mocha.test/1kg-mate.test.js" />
+      <item itemvalue="Mocha.test/indexedfile.test.js" />
+      <item itemvalue="Mocha.test/binary-parser.test.js" />
+      <item itemvalue="Mocha.test/crai.test.js" />
+      <item itemvalue="Mocha.test/dump.test.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.test/dump.test.js" />
+        <item itemvalue="Mocha.test/crai.test.js" />
+        <item itemvalue="Mocha.test/binary-parser.test.js" />
+        <item itemvalue="Mocha.test/indexedfile.test.js" />
+        <item itemvalue="Mocha.test/1kg-mate.test.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb78fedf-1c2a-4197-8725-30962dc662df" name="Default Changelist" comment="" />
+      <created>1537683193717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537683193717</updated>
+      <workItem from="1537683197868" duration="1655000" />
+      <workItem from="1542660496552" duration="4313000" />
+      <workItem from="1542784064414" duration="30757000" />
+      <workItem from="1543094459935" duration="8074000" />
+      <workItem from="1543472482990" duration="3897000" />
+      <workItem from="1543532705198" duration="3238000" />
+      <workItem from="1543604316135" duration="4269000" />
+      <workItem from="1543636626647" duration="7681000" />
+      <workItem from="1543879211143" duration="1030000" />
+      <workItem from="1543890793740" duration="13191000" />
+      <workItem from="1543906331545" duration="824000" />
+      <workItem from="1543939134450" duration="372000" />
+      <workItem from="1543986459414" duration="9574000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="test_dump_test_js - 2018.12.04 at 23h 11m 19s.xml">
+      <configuration name="test/dump.test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_dump_test_js - 2018.12.04 at 23h 13m 10s.xml">
+      <configuration name="test/dump.test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_dump_test_js - 2018.12.04 at 23h 14m 51s.xml">
+      <configuration name="test/dump.test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_dump_test_js - 2018.12.04 at 23h 20m 54s.xml">
+      <configuration name="test/dump.test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_dump_test_js - 2018.12.04 at 23h 23m 22s.xml">
+      <configuration name="test/dump.test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_dump_test_js - 2018.12.04 at 23h 27m 11s.xml">
+      <configuration name="test/dump.test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_dump_test_js - 2018.12.04 at 23h 32m 30s.xml">
+      <configuration name="test/dump.test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_dump_test_js - 2018.12.04 at 23h 39m 40s.xml">
+      <configuration name="test/dump.test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_dump_test_js - 2018.12.04 at 23h 41m 24s.xml">
+      <configuration name="test/dump.test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_dump_test_js - 2018.12.04 at 23h 45m 27s.xml">
+      <configuration name="test/dump.test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="90759000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="66" y="23" width="2492" height="1308" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3632653" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.27158424" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3621123" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.549036" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="JProfiler" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/lib/dumpFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="62" column="25" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/browser/test.html" />
+    <entry file="file://$PROJECT_DIR$/src/cramFile/codecs/beta.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cramFile/codecs/byteArrayLength.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cramFile/codecs/byteArrayStop.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/c1#bounds.2.1.cram.dump.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8211" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/c1#bounds.tmp.cram.sam_">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/ce#tag_padded.tmp.cram.sam_">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/ce#supp.tmp.cram.sam_">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/.htaccess" />
+    <entry file="file://$PROJECT_DIR$/test/data/hg19mini.fa">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/grc37-1.fa">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/cram_query_sorted.cram.dump.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39372" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/c1#clip.tmp.cram.sam_">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/cramFile/sectionParsers.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/grc37-1#HG03297.mapped.ILLUMINA.bwa.ESN.low_coverage.20130415.bam.cram.dump.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state>
+          <caret line="8662" column="31" selection-start-line="8662" selection-start-column="30" selection-end-line="8662" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-269" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/na12889.sam" />
+    <entry file="file://$PROJECT_DIR$/test/data/interchr.hg19.sam">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/interChrMate.test.js" />
+    <entry file="file://$PROJECT_DIR$/src/sam.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/browser/test.js" />
+    <entry file="file://$PROJECT_DIR$/src/io/bufferCache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cramFile/file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/remoteFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/craiIndex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="139" column="8" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cramFile/container/compressionScheme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="51" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cramFile/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cramFile/record.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="154" column="4" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/indexedCramFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/1kg-mate.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/crai.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/parse.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="193" column="10" selection-start-line="193" selection-start-column="10" selection-end-line="193" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/util.test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/dump.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/example-code.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indexedfile.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/binary-parser.test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/hg19mini#cram_with_bai_index.cram.dump.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="9717" column="16" selection-start-line="9717" selection-start-column="16" selection-end-line="9717" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/hg19mini#cramQueryTest.cram.dump.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="8155" column="25" selection-start-line="8155" selection-start-column="25" selection-end-line="8155" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/human_g1k_v37.20.21.10M-10M200k#cramQueryWithBAI.cram.dump.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="5010" column="26" selection-start-line="5010" selection-start-column="26" selection-end-line="5010" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cramFile/slice/decodeRecord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="225" column="22" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cramFile/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cramFile/slice/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="123" column="3" selection-start-line="123" selection-start-column="3" selection-end-line="123" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/hg19mini#cram_with_crai_index.cram.dump.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="9721" column="25" selection-start-line="9721" selection-start-column="25" selection-end-line="9721" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.6 (igv.js-reports) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cram-js</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
