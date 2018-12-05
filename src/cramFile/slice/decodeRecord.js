@@ -5,8 +5,6 @@ const Long = require('long')
 const CramRecord = require('../record')
 const Constants = require('../constants')
 
-
-const Constants = require('../constants')
 /**
  * given a Buffer, read a string up to the first null character
  * @private
