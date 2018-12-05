@@ -132,8 +132,6 @@ function associateIntraSliceMate(
     mateRecord.flags |= Constants.BAM_FMREVERSE
   }
 
-
-
   if (thisRecord.templateLength === undefined) {
     if (complicatedMultiSegment)
       calculateMultiSegmentMatedTemplateLength(
