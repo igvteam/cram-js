@@ -97,20 +97,18 @@ function associateIntraSliceMate(
       mateRecord.mateRecordNumber !== currentRecordNumber)
   )
 
+  // Deal with lossy read names
+  if (!thisRecord.readName) {
+    thisRecord.readName = generateID()
+    mateRecord.readName = thisRecord.readName
+  }
+
   thisRecord.mate = {
     sequenceId: mateRecord.sequenceId,
     alignmentStart: mateRecord.alignmentStart,
     uniqueId: mateRecord.uniqueId,
-    reverseComplemented: mateRecord.isReverseComplemented(),
   }
   if (mateRecord.readName) thisRecord.mate.readName = mateRecord.readName
-    else if(thisRecord)
-  else {
-    // Lossy read names -- generate.  The names should be globally unique
-      thisRecord.readName = generateID()
-      mateRecord.readName = thisRecord.readName
-    }
-  }
 
   // the mate record might have its own mate pointer, if this is some kind of
   // multi-segment (more than paired) scheme, so only relate that one back to this one
@@ -120,10 +118,8 @@ function associateIntraSliceMate(
       sequenceId: thisRecord.sequenceId,
       alignmentStart: thisRecord.alignmentStart,
       uniqueId: thisRecord.uniqueId,
-      reverseComplemented: thisRecord.isReverseComplemented(),
     }
     if (thisRecord.readName) mateRecord.mate.readName = thisRecord.readName
-
   }
 
   // make sure the proper flags and cramFlags are set on both records

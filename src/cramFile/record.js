@@ -152,9 +152,11 @@ class CramRecord {
 
   /** @returns {boolean} true if the mate is mapped to the reverse strand */
   isMateReverseComplemented() {
-    if(this.mate && this.mate.reverseComplemented !== undefined) return this.mate.reverseComplemented
-    else if(this.mate && this.mate.flags !== undefined) return !!(this.mate.flags && Constants.CRAM_M_REVERSE)
-    else return !!(this.flags & Constants.BAM_FMREVERSE)
+    if (this.mate && this.mate.reverseComplemented !== undefined)
+      return this.mate.reverseComplemented
+    else if (this.mate && this.mate.flags !== undefined)
+      return !!(this.mate.flags && Constants.CRAM_M_REVERSE)
+    return !!(this.flags & Constants.BAM_FMREVERSE)
   }
 
   /** @returns {boolean} true if this is read number 1 in a pair */
