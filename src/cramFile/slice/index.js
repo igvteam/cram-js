@@ -8,14 +8,6 @@ const { parseItem, tinyMemoize, sequenceMD5 } = require('../util')
 const Constants = require('../constants')
 const decodeRecord = require('./decodeRecord')
 
-function generateID() {
-  return `${Math.random()
-    .toString(36)
-    .substr(2, 9)}-${Math.random()
-    .toString(36)
-    .substr(2, 9)}`
-}
-
 /**
  * @private
  * Try to estimate the template length from a bunch of interrelated multi-segment reads.
@@ -99,7 +91,7 @@ function associateIntraSliceMate(
 
   // Deal with lossy read names
   if (!thisRecord.readName) {
-    thisRecord.readName = generateID()
+    thisRecord.readName = String(thisRecord.uniqueId)
     mateRecord.readName = thisRecord.readName
   }
 
@@ -369,7 +361,11 @@ class CramSlice {
           majorVersion,
           i,
         )
-        records[i].uniqueId = sliceHeader.content.recordCounter + i + 1
+        records[i].uniqueId =
+          sliceHeader.contentPosition +
+          sliceHeader.content.recordCounter +
+          i +
+          1
       } catch (e) {
         if (e instanceof CramBufferOverrunError) {
           console.warn(
