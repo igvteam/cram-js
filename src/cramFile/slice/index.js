@@ -8,6 +8,14 @@ const { parseItem, tinyMemoize, sequenceMD5 } = require('../util')
 const Constants = require('../constants')
 const decodeRecord = require('./decodeRecord')
 
+function generateID() {
+  return `${Math.random()
+    .toString(36)
+    .substr(2, 9)}-${Math.random()
+    .toString(36)
+    .substr(2, 9)}`
+}
+
 /**
  * @private
  * Try to estimate the template length from a bunch of interrelated multi-segment reads.
@@ -89,11 +97,16 @@ function associateIntraSliceMate(
       mateRecord.mateRecordNumber !== currentRecordNumber)
   )
 
+  // Deal with lossy read names
+  if (!thisRecord.readName) {
+    thisRecord.readName = generateID()
+    mateRecord.readName = thisRecord.readName
+  }
+
   thisRecord.mate = {
     sequenceId: mateRecord.sequenceId,
     alignmentStart: mateRecord.alignmentStart,
     uniqueId: mateRecord.uniqueId,
-    reverseComplemented: mateRecord.isReverseComplemented()
   }
   if (mateRecord.readName) thisRecord.mate.readName = mateRecord.readName
 
@@ -105,7 +118,6 @@ function associateIntraSliceMate(
       sequenceId: thisRecord.sequenceId,
       alignmentStart: thisRecord.alignmentStart,
       uniqueId: thisRecord.uniqueId,
-      reverseComplemented: thisRecord.isReverseComplemented()
     }
     if (thisRecord.readName) mateRecord.mate.readName = thisRecord.readName
   }
