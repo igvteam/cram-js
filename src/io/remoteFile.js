@@ -31,7 +31,12 @@ class RemoteFile {
 
       // try to parse out the size of the remote file
       const sizeMatch = /\/(\d+)$/.exec(response.headers.get('content-range'))
-      if (sizeMatch[1]) this._stat = { size: parseInt(sizeMatch[1], 10) }
+      if (sizeMatch && sizeMatch[1]) {
+        this._stat = { size: parseInt(sizeMatch[1], 10) }
+      } else {
+        throw new Error(
+          'No content-Range header in response. Content-Range is required, check CORS policy of server')
+      }
 
       return nodeBuffer
     }
