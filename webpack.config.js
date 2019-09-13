@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   mode: 'production',
@@ -7,17 +7,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'cram-bundle.js',
     library: 'gmodCRAM',
-    libraryTarget: 'window'
+    libraryTarget: 'var',
   },
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: "babel-loader"
-        }
-      }
-    ]
-  }
-};
+}
