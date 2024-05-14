@@ -1,3 +1,25 @@
+# v2.0.3
+
+- Update sam header parsing to avoid breaking 'type contract'
+
+# v2.0.2
+
+- Update buffer-crc32
+- Update typescript-eslint config and related fixes
+
+# v2.0.1
+
+- Fix issue parsing header tags with : character
+
+# v2.0.0
+
+- Add lzma support via xz-decompress. This uses webassembly, so it is a major
+  version bump
+
+# v1.7.4
+
+- Fix import of bzip2 module
+
 # v1.7.3
 
 - Fix usage of the 'b' tag under situations in CRA4 where a Uint8Array is
@@ -22,7 +44,8 @@
 
 # v1.6.3
 
-- Optimize CRAM parsing slightly (15% improvement on many short reads). This removes support for big endian machines
+- Optimize CRAM parsing slightly (15% improvement on many short reads). This
+  removes support for big endian machines
 - Publish src directory for sourceMap
 
 # v1.6.2
@@ -89,7 +112,8 @@
 
 # v1.4.3
 
-- Make sure mate exists for unmated pair, can exist when coordinate slices of cram file are made via samtools view
+- Make sure mate exists for unmated pair, can exist when coordinate slices of
+  cram file are made via samtools view
 
 # v1.4.2
 
